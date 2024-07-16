@@ -1,0 +1,7 @@
+{
+	"name": "App powered by SingleStore",
+	"short_name": "Boilerplate",
+	"theme_color": "#ffffff",
+	"background_color": "#0091ea",
+	"display": "standalone"
+}

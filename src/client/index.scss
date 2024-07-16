@@ -1,0 +1,137 @@
+* {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+h4 {
+  font-size: 9px;
+  color: rgba(255, 2555, 255, 0.5);
+  font-weight: 100;
+}
+
+p {
+  font-size: 12px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../public/trading-background.png");
+  background-size: cover;
+}
+
+.app {
+  background: rgba(21, 21, 26, 0.78);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(21, 22, 26, 0.3);
+  padding: 30px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 60px 0;
+}
+
+.user-info h2, h1 {
+  margin: 2px;
+}
+
+.info-container {
+  width: 183px;
+}
+
+.card {
+  background: rgba(254, 254, 254, 0.1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 7px 0;
+  width: 1000px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.symbol-info {
+  display: flex;
+}
+
+.icon {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: rgba(255, 0, 85, 0.5) solid 3px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-ticker {
+  border-top: rgba(254, 254, 254, 0.2) solid 1px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.info-ticker p {
+  color: rgba(255, 166, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+  transform: translateX(100%);
+  animation: scroll-left 40s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.positive {
+  color: rgb(32, 152, 120)
+}
+
+.negative {
+  color: rgb(255, 103, 103)
+}
+
+
+
+
