@@ -1,0 +1,1 @@
+# singlestore-stock-market-sentiment-app
