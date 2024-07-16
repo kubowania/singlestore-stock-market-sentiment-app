@@ -1,6 +1,7 @@
 # Singlestore Market Sentiment App!
 
 This AI App will allow the user to get live data on their purchased stocks, aswell as sentiment analysis on the stocks from twitter that we store in our vector database on SingleStore!
+
 ![image](preview.png)
 
 This app was created using `create-singlestoredb-app`
